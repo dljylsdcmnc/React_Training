@@ -58,13 +58,13 @@ const App = () => {
           <h2 className="text-3xl font-bold text-white text-center mb-4">Counter</h2>
           <div className="text-center text-4xl font-bold text-white mb-4">{count}</div>
           <div className="flex flex-wrap gap-4 justify-center">
-            <button onClick={() => handleCount('increment')} className="bg-blue-500 hover:bg-emerald-600 text-white px-6 py-3 rounded-xl flex items-center gap-2">
+            <button onClick={() => handleCount('increment')} className="bg-emerald-500 hover:bg-emerald-600 text-white px-6 py-3 rounded-xl flex items-center gap-2">
               <Plus className="h-5 w-5" /> Increment
             </button>
-            <button onClick={() => handleCount('decrement')} className="bg-blue-500 hover:bg-amber-600 text-white px-6 py-3 rounded-xl flex items-center gap-2">
+            <button onClick={() => handleCount('decrement')} className="bg-amber-500 hover:bg-amber-600 text-white px-6 py-3 rounded-xl flex items-center gap-2">
               <Minus className="h-5 w-5" /> Decrement
             </button>
-            <button onClick={() => handleCount('reset')} className="bg-blue-500 hover:bg-rose-600 text-white px-6 py-3 rounded-xl flex items-center gap-2">
+            <button onClick={() => handleCount('reset')} className="bg-rose-500 hover:bg-rose-600 text-white px-6 py-3 rounded-xl flex items-center gap-2">
               <RotateCcw className="h-5 w-5" /> Reset
             </button>
           </div>
